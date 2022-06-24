@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+/* padding: 4em; */
+background: linear-gradient(359.6deg, rgba(61, 48, 48, 0.19) 42.57%, rgba(243, 115, 115, 0) 69.07%, rgba(224, 34, 34, 0) 99.65%), linear-gradient(180deg, rgba(247, 4, 48, 0.62) 0%, rgba(247, 4, 48, 0.458542) 55.21%, rgba(247, 4, 48, 0) 100%);
+}
+.heading{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 82px;
+/* identical to box height */
+
+display: flex;
+align-content: center;
+
+color: #03008B;
+
+/* border: 1px solid #FFFFFF; */
+text-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+}
+.card{
+    box-sizing: border-box;
+    align-content: center;
+    max-width: 1240px;
+/* height: 790px; */
+
+    background: radial-gradient(95.97% 236.44% at 4.03% 7.85%, rgba(191, 186, 186, 0.23) 0%, rgba(218, 120, 120, 0.52) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 1px solid #FFFFFF;
+border-radius: 25px;
+}
+.leftCard{
+    display:inline;
+    border-radius: 25px;
+}
